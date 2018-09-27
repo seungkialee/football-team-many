@@ -14,11 +14,11 @@ You should be able to add/remove a new fan to a football team.
 
 ## The models that you need:
 
-  ##  *Football_Team
+  ##  * Football_Team
 
-  ##  *Club
+  ##  * Club
 
-  ##  *Fan
+  ##  * Fan
 
 The data relationship will look something like this:
 
@@ -30,8 +30,8 @@ The data relationship will look something like this:
 
 Your database should look like the following:
 
-``
 
+```db
 table "Football_Teams"
   string "team_name"
   string "city"
@@ -43,8 +43,8 @@ table "Fans"
 table "Clubs"
   integer "football_team_id"
   integer "fan_id"
-  
-``
+```
+
 Make sure the app has the following components:
 
 index, show, new, create, edit, update 
